@@ -4,7 +4,7 @@
   "description": "This extension allows you to click on logseq hyperlinks in vscode",
   "version": "1.0.0",
   "engines": {
-    "vscode": "^1.85.0",
+    "vscode": "^1.82.0",
     "azureDataStudio": "^1.82.0"
   },
   "categories": [
@@ -13,7 +13,10 @@
   "activationEvents": ["onStartupFinished"],
   "main": "./extension.js",
   "contributes": {
-    "commands": []
+    "commands": [{
+      "command": "extension.openLink",
+      "title": "Open Link"
+    }]
   },
   "scripts": {
     "lint": "eslint .",
@@ -21,7 +24,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.85.0",
+    "@types/vscode": "^1.82.0",
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
     "eslint": "^8.56.0",
