@@ -10,13 +10,10 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": ["*"],
+  "activationEvents": ["onStartupFinished"],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "extension.openLink",
-      "title": "Open Link"
-    }]
+    "commands": []
   },
   "scripts": {
     "lint": "eslint .",
