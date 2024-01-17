@@ -6,6 +6,8 @@ This is a very simple extension that allows you to click on `logseq://` links in
 
 This extension simply allows you to click on `logseq://` links in any files in VSCode and have them open in Logseq.
 
+logseq://graph/Logseq?page=algo
+
 ## Requirements
 
 None
