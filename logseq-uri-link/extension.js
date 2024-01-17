@@ -1,6 +1,6 @@
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
-const { languages, DocumentLink, Range, Uri } = require('vscode');
+const { DocumentLink, Range, Uri, vscode } = require('vscode');
 
 class CustomDocumentLinkProvider {
     provideDocumentLinks(document, token) {
@@ -23,7 +23,12 @@ class CustomDocumentLinkProvider {
 }
 
 function activate(context) {
-    context.subscriptions.push(languages.registerDocumentLinkProvider({ scheme: 'file' }, new CustomDocumentLinkProvider()));
+    context.subscriptions.push(vscode.languages.registerDocumentLinkProvider({ scheme: 'file' }, new CustomDocumentLinkProvider()));
+
+    context.subscriptions.push(vscode.commands.registerCommand('extension.openLink', async (uri) => {
+        // Open the link with the default browser
+        await vscode.env.openExternal(uri);
+    }));
 }
 
 exports.activate = activate;
