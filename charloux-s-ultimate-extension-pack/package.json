@@ -2,9 +2,9 @@
   "name": "charloux-s-ultimate-extension-pack",
   "displayName": "Charloux's ultimate extension pack",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.80.0"
   },
   "publisher": "charloux",
   "repository": {
@@ -18,7 +18,6 @@
     "aaron-bond.better-comments", 
     "adpyke.vscode-sql-formatter", 
     "aliasadidev.nugetpackagemanagergui", 
-    "AnbuselvanRocky.bootstrap5-vscode", 
     "aroary.loremipsum", 
     "batisteo.vscode-django", 
     "bmewburn.vscode-intelephense-client", 
@@ -39,15 +38,16 @@
     "docsmsft.docs-yaml", 
     "donjayamanne.python-environment-manager", 
     "donjayamanne.python-extension-pack", 
+    "dsznajder.es7-react-js-snippets", 
     "eamodio.gitlens", 
     "ecmel.vscode-html-css", 
     "exercism.exercism-cli", 
     "formulahendry.auto-rename-tag", 
     "foxundermoon.shell-format", 
     "fredwangwang.vscode-hcl-format", 
+    "gencer.html-slim-scss-css-class-completion", 
     "GitHub.copilot", 
     "GitHub.copilot-chat", 
-    "GitHub.copilot-labs", 
     "GitHub.remotehub", 
     "github.vscode-github-actions", 
     "golang.go", 
@@ -71,7 +71,6 @@
     "mblode.pretty-formatter", 
     "mhutchie.git-graph", 
     "mindaro-dev.file-downloader", 
-    "moalamri.inline-fold", 
     "ms-azuretools.vscode-docker", 
     "MS-CEINTL.vscode-language-pack-fr", 
     "ms-dotnettools.csdevkit", 
@@ -97,11 +96,13 @@
     "ms-vscode.powershell", 
     "ms-vscode.remote-repositories", 
     "ms-vsliveshare.vsliveshare", 
+    "msjsdiag.vscode-react-native", 
     "neilbrayfield.php-docblocker", 
     "njpwerner.autodocstring", 
     "oderwat.indent-rainbow", 
     "pierre3.csharp-to-plantuml", 
     "piotrpalarz.vscode-gitignore-generator", 
+    "planbcoding.vscode-react-refactor", 
     "redhat.ansible", 
     "redhat.java", 
     "redhat.vscode-xml", 
@@ -124,7 +125,6 @@
     "vscjava.vscode-lombok", 
     "wholroyd.jinja", 
     "yandeu.five-server", 
-    "yzhang.markdown-all-in-one", 
-    "Zignd.html-css-class-completion"
+    "yzhang.markdown-all-in-one"
   ]
 }
