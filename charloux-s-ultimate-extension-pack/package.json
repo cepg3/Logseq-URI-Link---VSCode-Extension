@@ -2,7 +2,7 @@
   "name": "charloux-s-ultimate-extension-pack",
   "displayName": "Charloux's ultimate extension pack",
   "description": "",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -16,7 +16,6 @@
   ],
   "extensionPack": [ 
     "aaron-bond.better-comments", 
-    "adpyke.vscode-sql-formatter", 
     "aliasadidev.nugetpackagemanagergui", 
     "aroary.loremipsum", 
     "batisteo.vscode-django", 
@@ -41,7 +40,6 @@
     "dsznajder.es7-react-js-snippets", 
     "eamodio.gitlens", 
     "ecmel.vscode-html-css", 
-    "exercism.exercism-cli", 
     "formulahendry.auto-rename-tag", 
     "foxundermoon.shell-format", 
     "fredwangwang.vscode-hcl-format", 
@@ -123,6 +121,7 @@
     "VisualStudioExptTeam.vscodeintellicode", 
     "VisualStudioExptTeam.vscodeintellicode-completions", 
     "vscjava.vscode-lombok", 
+    "wiimusic.poor-mans-t-sql-formatter-vscode-wiimusic", 
     "wholroyd.jinja", 
     "yandeu.five-server", 
     "yzhang.markdown-all-in-one"

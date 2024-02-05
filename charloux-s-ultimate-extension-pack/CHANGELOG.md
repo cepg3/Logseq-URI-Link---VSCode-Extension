@@ -18,3 +18,11 @@ All notable changes to the "charloux-s-ultimate-extension-pack" extension pack w
 ## [0.1.2]
 
 - Added an extension i taught was there already
+
+## [0.1.3]
+
+- Switch to WiiMusic's SQL formatter
+
+## [0.1.4]
+
+- Remove extensions only useful for me
